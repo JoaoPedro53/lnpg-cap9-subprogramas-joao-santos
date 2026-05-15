@@ -51,3 +51,30 @@
 <li>Não. Java não tem passagem por referência verdadeira.</li>
 <li>É copiada uma cópia da referência do objeto, um “endereço” para o objeto.</li>
 <li>Porque tanto o método quanto o main apontam para o mesmo objeto na memória, então qualquer mudança no objeto afeta os dois.</li>
+
+<h3>Tarefa 5 — Projeto Livre com Subprogramas</h3>
+<p>Jogo Ímpar ou Par em python modularizado.</p>
+
+```text
+jogo()
+ ├── boas_vindas()
+ ├── perguntar_jogar()
+ ├── escolher_par_ou_impar()
+ ├── ler_numero()
+ ├── gerar_numero_maquina()
+ ├── calcular_resultado()
+ └── verificar_vencedor()
+```
+<p>Justificativa da divisão dos subprogramas: </p>
+<li>Separei o código em funções para deixar mais organizado. Cada função faz uma parte específica do jogo.</li>
+<br>
+<p>Dificuldades encontradas: </p>
+<li>Saber onde quebrar o código em funções</li>
+<li>Evitar repetir lógica dentro do programa</li>
+<li>Organizar as chamadas na ordem correta</li>
+<br>
+<p>Vantagens percebidas da modularização:</p>
+<li>Código mais fácil de entender</li>
+<li>Mais fácil de corrigir erros</li>
+<li>Dá para reaproveitar funções</li>
+<li>O programa fica mais limpo e organizado</li>
