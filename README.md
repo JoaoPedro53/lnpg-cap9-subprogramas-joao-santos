@@ -35,3 +35,11 @@
 <li>As partes repetitivas eram a leitura dos produtos, os cálculos e a impressão do cupom, tudo ficando junto no mesmo bloco de código.</li>
 <li>Com funções, essas partes ficaram reutilizáveis, porque agora podemos chamar a mesma função várias vezes sem reescrever código.</li>
 <li>A modularização deixou o código mais organizado e fácil de entender, já que cada função faz apenas uma tarefa específica.</li>
+<br>
+
+<h3>Tarefa 3 — Passagem de Parâmetros por Valor em Java</h3>
+<p>Programa Java contendo passagem por valor de tipos primitivos.</p>
+
+<li>O valor original não mudou, porque foi passado um cópia do valor para o método e não a variável original.</li>
+<li>“Passagem por valor” significa que o método recebe uma cópia do valor da variável, e não a variável original.</li>
+<li>O valor da varíavel 'x' do método 'main' foi copiado para a varíavel local 'x' do método 'alterarNumero'.</li>
