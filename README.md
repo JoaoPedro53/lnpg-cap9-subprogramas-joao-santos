@@ -43,3 +43,11 @@
 <li>O valor original não mudou, porque foi passado um cópia do valor para o método e não a variável original.</li>
 <li>“Passagem por valor” significa que o método recebe uma cópia do valor da variável, e não a variável original.</li>
 <li>O valor da varíavel 'x' do método 'main' foi copiado para a varíavel local 'x' do método 'alterarNumero'.</li>
+<br>
+
+<h3>Tarefa 4 — Objetos e Referência em Java</h3>
+<p>Classe Java para entender o comportamento de objetos em chamadas de métodos.</p>
+
+<li>Não. Java não tem passagem por referência verdadeira.</li>
+<li>É copiada uma cópia da referência do objeto, um “endereço” para o objeto.</li>
+<li>Porque tanto o método quanto o main apontam para o mesmo objeto na memória, então qualquer mudança no objeto afeta os dois.</li>
