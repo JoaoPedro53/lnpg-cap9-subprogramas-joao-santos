@@ -20,3 +20,18 @@
 <li>Facilidade de Manutenção -> Ótima manutenção, dévido ao seu fraco acoplamento.</li>
 <li>Clareza do fluxo -> Fluxo claro devido aos seus métodos.</li>
 <li>tamanho dos métodos -> Na versão monolítica tudo estava no método main, agora ele foi quebrado em vários outros. Com isso, cada método tendo tamanhos aceitáveis.</li>
+
+<h3>Tarefa 2 — Modularização em Python</h3>
+<p>Implementar um sistema de vendas em Python em subprogramas</p>
+
+<p>Versão <b>monolítica:</b></p>
+<li>No código monolítico, tudo fica em um único bloco, deixando o código maior, mais confuso e difícil de manter. Ou seja, qualquer alteração pode ficar mais trabalhosa, porque tudo está misturado no mesmo lugar </li>
+<br>
+
+<p>Versão <b>modularizada:</b></p>
+<li>No código modularizado, as tarefas foram separadas em funções, deixando o código mais organizado e fácil de entender. Também facilita reutilizar partes do programa sem precisar copiar código.</li>
+<br>
+
+<li>As partes repetitivas eram a leitura dos produtos, os cálculos e a impressão do cupom, tudo ficando junto no mesmo bloco de código.</li>
+<li>Com funções, essas partes ficaram reutilizáveis, porque agora podemos chamar a mesma função várias vezes sem reescrever código.</li>
+<li>A modularização deixou o código mais organizado e fácil de entender, já que cada função faz apenas uma tarefa específica.</li>
